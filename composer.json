@@ -1,0 +1,31 @@
+{
+  "name": "lingner/llmstxt",
+  "description": "LLMs.txt - Add LLMs.txt editor",
+  "type": "typo3-cms-extension",
+  "keywords": [
+    "TYPO3 CMS",
+    "schema",
+    "schema.org"
+  ],
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "LINGNER\\Llmstxt\\": "Classes/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "typo3/cms-core": "^13 || ^14",
+    "typo3/cms-backend": "^13 || ^14"
+  },
+  "version": "1.0.0",
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "llmstxt",
+      "version": "1.0.0-stable",
+      "Package": {
+        "providesPackages": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    index: index
+    map:
+      llms.txt: 1788340978

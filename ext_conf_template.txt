@@ -1,0 +1,5 @@
+# cat=Features/enable; type=bool; label=Allow on all pages, if disabled it is allowed only on siteroot pages
+allPages = 0
+
+# cat=Features/enable; type=bool; label=Allow translations
+translations = 0
